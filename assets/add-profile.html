@@ -1,0 +1,46 @@
+<html>
+<head>
+  <style>
+    #avatarImg {
+      width: 128px;
+      height: 128px;
+      border-radius: 50%;
+      margin: 5px;
+    }
+    #flexContainer {
+      display: flex;
+      flex-direction: row;
+      line-height: 2rem;
+    }
+    .saved {
+      color: #7aa600;
+    }
+    .changed {
+      color: #d04e4e;
+    }
+  </style>
+</head>
+<body style="margin: 3% 10%;">
+  <div>
+    <h4>#Net profile</h4>
+  </div>
+  <div id="flexContainer">
+    <div>
+      <img src="" id="avatarImg" />
+      <br />
+      <label for="avatar">avatar or photo:</label><br />
+      <input type="file" id="avatar" name="avatar" accept="image/*" />
+    </div>
+    <div>
+      <input type="hidden" id="nonce" name="nonce" value="1" />
+      <label for="nickname">nickname:</label>
+      <input type="text" id="nickname" name="nickname" size="20" />
+      <br />
+      <label for="description">a little something about me:</label><br/>
+      <textarea id="description" name="description" rows="8" cols="32"></textarea>
+    </div>
+  </div>
+  <div id="status"></div><br />
+  <input type="button" id="publishProfile" value="Publish profile" />
+  <script src="hash://sha256/update-profile.js"></script>
+</body></html>

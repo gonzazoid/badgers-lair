@@ -1,0 +1,16 @@
+{
+  "secp256k1.sha256:02b0d85dd3634384d7fe148b4087cdf29fa24105f33228bf7787b7aaecb60bdd85": {
+    "/add-profile.html": {
+      "hash": "sha256:773df8bea02d40fd4cc21c27aca5b58baedcadf4c8c1c7f318d7159f710d3828",
+      "nonce": "2"
+    },
+    "/upload-file.html": {
+      "hash": "sha256:737957015508f8958b39520b56e8dee29cdf1dc217fbc700f385957ed53f20d1",
+      "nonce": "2"
+    },
+    "/index.html": {
+      "hash": "sha256:ebe88d4539a111a88aa0bf3e43d70f690eaeb279883322d490efdf0769da46f3",
+      "nonce": "7"
+    }
+  }
+}
